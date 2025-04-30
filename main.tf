@@ -10,7 +10,7 @@ terraform {
     bucket             = "gunjan-ki-balti-01"
     key                = "workspace.statefile"
     region             = "ap-south-1"
-    aws_dynamodb_table = "dynamodb-state-locking"
+    dynamodb_table = "dynamodb-state-locking"
   }
 }
 
